@@ -38,4 +38,12 @@ test('Displays if gate is locked/unlocked',() => {
 
 });
 
+test('when `locked` or `closed` use the `red-led` class', () => {
+    let redClosed = render(<Display locked={true} />);
+    const redClass = document.getElementsByClassName(red-led)
+
+    expect(redClass).toBe(true);
+
+})
+
 });

@@ -21,7 +21,7 @@ describe('Dashboard works', () => {
     // - defaults to `unlocked` and ``open`
     // - cannot be closed or opened if it is locked
 
-    test('Dashboard Defaults to unlocked and open', () => {
+    test('Dashboard gate Defaults to unlocked and open', () => {
         const {getByText} = render(<Dashboard />);
         getByText(/unlocked/i);
         getByText(/open/i);
