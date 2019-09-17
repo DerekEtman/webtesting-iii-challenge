@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`DashBoard Snapshot matches Dashboard render 1`] = `
+exports[`Dashboard works DashBoard Snapshot matches Dashboard render 1`] = `
 Object {
   "asFragment": [Function],
   "baseElement": <body>
